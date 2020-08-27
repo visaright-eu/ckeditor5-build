@@ -1,0 +1,6 @@
+node_modules/
+coverage/
+external/
+lerna-debug.log
+.idea
+.vscode
