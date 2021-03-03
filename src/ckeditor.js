@@ -183,10 +183,7 @@ ClassicEditor.defaultConfig = {
 		],
 	},
 	indentBlock: {
-		classes: [
-			'custom-block-indent-a', // First step - smallest indentation.
-			'custom-block-indent-b',
-			'custom-block-indent-c'  // Last step - biggest indentation.
-		]
-	},
+		offset: 1,
+		unit: 'em'
+	}
 };
