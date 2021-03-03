@@ -30,7 +30,6 @@ import PasteFromOffice from "@ckeditor/ckeditor5-paste-from-office/src/pastefrom
 import Table from "@ckeditor/ckeditor5-table/src/table";
 import TableToolbar from "@ckeditor/ckeditor5-table/src/tabletoolbar";
 import TextTransformation from "@ckeditor/ckeditor5-typing/src/texttransformation";
-import Font from '@ckeditor/ckeditor5-font/src/font';
 import Plugin from "@ckeditor/ckeditor5-core/src/plugin";
 // import Widget from "@ckeditor/ckeditor5-widget/src/widget";
 import Command from "@ckeditor/ckeditor5-core/src/command";
@@ -129,7 +128,6 @@ ClassicEditor.builtinPlugins = [
 	ImageToolbar,
 	ImageUpload,
 	Indent,
-	Font,
 	Link,
 	List,
 	MediaEmbed,
