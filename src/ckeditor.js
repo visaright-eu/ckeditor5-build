@@ -21,6 +21,7 @@ import ImageStyle from "@ckeditor/ckeditor5-image/src/imagestyle";
 import ImageToolbar from "@ckeditor/ckeditor5-image/src/imagetoolbar";
 import ImageUpload from "@ckeditor/ckeditor5-image/src/imageupload";
 import Indent from "@ckeditor/ckeditor5-indent/src/indent";
+import IndentBlock from '@ckeditor/ckeditor5-indent/src/indentblock';
 import HtmlEmbed from '@ckeditor/ckeditor5-html-embed/src/htmlembed';
 import Underline from '@ckeditor/ckeditor5-basic-styles/src/underline';
 import Link from "@ckeditor/ckeditor5-link/src/link";
@@ -132,6 +133,7 @@ ClassicEditor.builtinPlugins = [
 	ImageToolbar,
 	ImageUpload,
 	Indent,
+	IndentBlock,
 	Font,
 	HtmlEmbed,
 	Link,
@@ -179,5 +181,12 @@ ClassicEditor.defaultConfig = {
 			19,
 			21
 		],
+	},
+	indentBlock: {
+		classes: [
+			'custom-block-indent-a', // First step - smallest indentation.
+			'custom-block-indent-b',
+			'custom-block-indent-c'  // Last step - biggest indentation.
+		]
 	},
 };
