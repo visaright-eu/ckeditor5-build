@@ -32,6 +32,7 @@ import Table from "@ckeditor/ckeditor5-table/src/table";
 import TableToolbar from "@ckeditor/ckeditor5-table/src/tabletoolbar";
 import TextTransformation from "@ckeditor/ckeditor5-typing/src/texttransformation";
 import Font from '@ckeditor/ckeditor5-font/src/font';
+import Alignment from '@ckeditor/ckeditor5-alignment/src/alignment';
 import Plugin from "@ckeditor/ckeditor5-core/src/plugin";
 // import Widget from "@ckeditor/ckeditor5-widget/src/widget";
 import Command from "@ckeditor/ckeditor5-core/src/command";
@@ -115,6 +116,7 @@ export default class ClassicEditor extends ClassicEditorBase {}
 // Plugins to include in the build.
 ClassicEditor.builtinPlugins = [
 	Essentials,
+	Alignment,
 	Underline,
 	UploadAdapter,
 	Autoformat,
