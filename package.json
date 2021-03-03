@@ -48,6 +48,7 @@
     "@ckeditor/ckeditor5-theme-lark": "latest",
     "@ckeditor/ckeditor5-typing": "latest",
     "@ckeditor/ckeditor5-html-embed": "latest",
+    "@ckeditor/ckeditor5-font": "latest",
     "postcss-loader": "^3.0.0",
     "raw-loader": "^4.0.1",
     "style-loader": "^1.2.1",
