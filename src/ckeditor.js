@@ -21,6 +21,7 @@ import ImageStyle from "@ckeditor/ckeditor5-image/src/imagestyle";
 import ImageToolbar from "@ckeditor/ckeditor5-image/src/imagetoolbar";
 import ImageUpload from "@ckeditor/ckeditor5-image/src/imageupload";
 import Indent from "@ckeditor/ckeditor5-indent/src/indent";
+import HtmlEmbed from '@ckeditor/ckeditor5-html-embed/src/htmlembed';
 import Underline from '@ckeditor/ckeditor5-basic-styles/src/underline';
 import Link from "@ckeditor/ckeditor5-link/src/link";
 import List from "@ckeditor/ckeditor5-list/src/list";
@@ -128,6 +129,7 @@ ClassicEditor.builtinPlugins = [
 	ImageToolbar,
 	ImageUpload,
 	Indent,
+	HtmlEmbed,
 	Link,
 	List,
 	MediaEmbed,
