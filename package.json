@@ -1,6 +1,6 @@
 {
   "name": "ckeditor5-build",
-  "version": "22.0.0",
+  "version": "21.0.0",
   "description": "The classic editor build of CKEditor 5 – the best browser-based rich text editor.",
   "keywords": [
     "ckeditor5-build",
@@ -47,8 +47,8 @@
     "@ckeditor/ckeditor5-table": "^21.0.0",
     "@ckeditor/ckeditor5-theme-lark": "^21.0.0",
     "@ckeditor/ckeditor5-typing": "^21.0.0",
-    "@ckeditor/ckeditor5-alignment": "^25.0.0",
-    "@ckeditor/ckeditor5-font": "^25.0.0",
+    "@ckeditor/ckeditor5-alignment": "^21.0.0",
+    "@ckeditor/ckeditor5-font": "^21.0.0",
     "@ckeditor/ckeditor5-html-embed": "^25.0.0",
     "postcss-loader": "^3.0.0",
     "raw-loader": "^4.0.1",
