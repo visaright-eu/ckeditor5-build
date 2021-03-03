@@ -129,6 +129,7 @@ ClassicEditor.builtinPlugins = [
 	ImageToolbar,
 	ImageUpload,
 	Indent,
+	HtmlEmbed,
 	Link,
 	List,
 	MediaEmbed,
