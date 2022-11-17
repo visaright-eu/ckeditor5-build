@@ -1,3 +1,9 @@
+# FORKED: CKEditor 5
+
+* Added reach text editing plugins
+* Added plugin to tag customer support managers in amdin notes
+
+
 CKEditor 5 classic editor build
 ========================================
 
